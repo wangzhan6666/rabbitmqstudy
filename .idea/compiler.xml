@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbitmq-direct-annotion" />
+        <module name="rabbitmq-workqueues-annotion" />
+        <module name="rabbitmq-topic" />
+        <module name="rabbitmq-helloworld-annotion" />
+        <module name="rabbitmq-workqueues" />
+        <module name="rabbitmq-fanout-annotion" />
+        <module name="rabbitmq-direct" />
+        <module name="rabbitmq-topic-annotion" />
+        <module name="rabbitmq-helloworld" />
+        <module name="common-utils" />
+        <module name="rabbitmq-fanout" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
