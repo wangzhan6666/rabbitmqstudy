@@ -1,4 +1,4 @@
-### rabbitmq的学习
+# rabbitmq的学习
 
 ## 1、有单独的rabbitmq的代码
 
