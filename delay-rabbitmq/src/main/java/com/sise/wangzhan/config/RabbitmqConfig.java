@@ -26,8 +26,10 @@ public class RabbitmqConfig {
     // 延时队列
     @Bean
     public Queue delayQueue(){
+//        props.put("x-message-ttl",10 * 1000);
         // 设置死信交换机及路由key
         return QueueBuilder.durable("delayQueue")   // 持久化队列
+                .withArgument("x-message-ttl", 20 * 1000)       // 设置过期时间
                 // 死信交换机，如果消息过时，则会被投递到当前对应的交换机中
                 .withArgument("x-dead-letter-exchange", "myDeadExchange")
                 // 路由key，如果消息过时，交换机会根据路由key投递消息到对应的队列

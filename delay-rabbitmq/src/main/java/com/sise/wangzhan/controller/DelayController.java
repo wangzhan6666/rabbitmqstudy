@@ -49,13 +49,16 @@ public class DelayController {
          *  参数2：消息
          *  参数3：消息处理器
          */
-        rabbitTemplate.convertAndSend("delayQueue", map, new MessagePostProcessor() {
+        /*rabbitTemplate.convertAndSend("delayQueue", map, new MessagePostProcessor() {
             public Message postProcessMessage(Message message) throws AmqpException {
                 // 设置消息的过期时间,20秒
                 message.getMessageProperties().setExpiration("20000");
                 return message;
             }
-        });
+        });*/
+
+        // 在延时队列中指定了过期时间
+        rabbitTemplate.convertAndSend("delayQueue", map);
 
         System.out.println("发送消息的时间：" + new Date());
         return "SUCCESS";
