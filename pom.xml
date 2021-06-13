@@ -23,6 +23,7 @@
         <module>provider-rabbitmq</module>
         <module>customer1-rabbitmq</module>
         <module>customer2-rabbitmq</module>
+        <module>delay-rabbitmq</module>
     </modules>
 
     <!--<dependencies>

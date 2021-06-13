@@ -9,6 +9,7 @@
         <module name="rabbitmq-fanout-annotion" />
         <module name="rabbitmq-direct-annotion" />
         <module name="rabbitmq-direct" />
+        <module name="delay-rabbitmq" />
         <module name="rabbitmq-topic-annotion" />
         <module name="rabbitmq-workqueues-annotion" />
         <module name="rabbitmq-fanout" />
