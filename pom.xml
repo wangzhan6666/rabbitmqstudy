@@ -20,6 +20,9 @@
         <module>rabbitmq-fanout-annotion</module>
         <module>rabbitmq-direct-annotion</module>
         <module>rabbitmq-topic-annotion</module>
+        <module>provider-rabbitmq</module>
+        <module>customer1-rabbitmq</module>
+        <module>customer2-rabbitmq</module>
     </modules>
 
     <!--<dependencies>

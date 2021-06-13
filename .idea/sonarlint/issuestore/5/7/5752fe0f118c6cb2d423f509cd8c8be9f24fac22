@@ -1,7 +1,7 @@
 
-g
-java:S2095/"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ8ºéÕõž/
 X	java:S125"<This block of commented-out lines of code should be removed.(ÿ–Ú®8úÒÔõž/
 X	java:S125@"<This block of commented-out lines of code should be removed.(½ä”“8”¥Öõž/
  
 java:S1130"~Remove the declaration of thrown exception 'java.util.concurrent.TimeoutException', as it cannot be thrown from method's body.(¾Ä“àúÿÿÿÿ8ýÈ©öž/
+g
+java:S2095/"EUse try-with-resources or close this "Channel" in a "finally" clause.(‡î‰´ûÿÿÿÿ8ºéÕõž/

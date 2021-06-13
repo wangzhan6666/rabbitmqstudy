@@ -1,0 +1,20 @@
+
+#   配置RabbitMQ的相关链接信息（单击）
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    virtual-host: /wangzhan
+    username: wangzhan
+    password: wangzhan
+
+server:
+  port: 8099
+
+#   配置RabbitMQ的相关链接信息（集群）
+#spring:
+#  rabbitmq:
+#    addresses: 172.16.153.66:5672,172.16.153.21:5672
+#    virtual-host: /wangzhan
+#    username: wangzhan
+#    password: wangzhan

@@ -6,17 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rabbitmq-direct-annotion" />
-        <module name="rabbitmq-workqueues-annotion" />
-        <module name="rabbitmq-topic" />
-        <module name="rabbitmq-helloworld-annotion" />
-        <module name="rabbitmq-workqueues" />
         <module name="rabbitmq-fanout-annotion" />
+        <module name="rabbitmq-direct-annotion" />
         <module name="rabbitmq-direct" />
         <module name="rabbitmq-topic-annotion" />
-        <module name="rabbitmq-helloworld" />
-        <module name="common-utils" />
+        <module name="rabbitmq-workqueues-annotion" />
         <module name="rabbitmq-fanout" />
+        <module name="customer2-rabbitmq" />
+        <module name="provider-rabbitmq" />
+        <module name="rabbitmq-workqueues" />
+        <module name="common-utils" />
+        <module name="customer1-rabbitmq" />
+        <module name="rabbitmq-topic" />
+        <module name="rabbitmq-helloworld-annotion" />
+        <module name="rabbitmq-helloworld" />
       </profile>
     </annotationProcessing>
   </component>
