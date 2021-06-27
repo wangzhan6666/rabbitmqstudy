@@ -5,6 +5,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  *  Copyright: Copyright (c) 2021 Asiainfo
  *  
@@ -28,13 +31,21 @@ public class RabbitmqConfig {
     public Queue delayQueue(){
 //        props.put("x-message-ttl",10 * 1000);
         // 设置死信交换机及路由key
-        return QueueBuilder.durable("delayQueue")   // 持久化队列
+        /*return QueueBuilder.durable("delayQueue")   // 持久化队列
                 .withArgument("x-message-ttl", 20 * 1000)       // 设置过期时间
                 // 死信交换机，如果消息过时，则会被投递到当前对应的交换机中
                 .withArgument("x-dead-letter-exchange", "myDeadExchange")
                 // 路由key，如果消息过时，交换机会根据路由key投递消息到对应的队列
                 .withArgument("x-dead-letter-routing-key", "delayRoutingKey")
-                .build();
+                .build();*/
+
+        Map<String, Object> args = new HashMap<String, Object>();
+
+        args.put("x-message-ttl", 20000);
+        args.put("x-dead-letter-exchange", "myDeadExchange");
+        args.put("x-dead-letter-routing-key", "delayRoutingKey");
+
+        return new Queue("delayQueue", true, false, false, args);
     }
 
     // 死信交换机

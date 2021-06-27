@@ -117,3 +117,17 @@ Pcustomer2-rabbitmq/src/main/java/com/sise/wangzhan/service/IDirectCustomer2.jav
 Xcustomer2-rabbitmq/src/main/java/com/sise/wangzhan/service/impl/DirectCustomer2Impl.java,7\d\7d9db50b32bf85363e3e3b7a0605840d551e9a88
 |
 Lcustomer2-rabbitmq/src/main/java/com/sise/wangzhan/Customer2Application.java,9\6\96974f7470e167905a850f198a825e6a02f4cb12
+e
+5customer2-rabbitmq/src/main/resources/application.yml,b\6\b6708ffa035b36a6ee49785d63e8428d5c572ea7
+d
+4provider-rabbitmq/src/main/resources/application.yml,b\d\bdad59069c617c34e9f17a53bb5a55dbdcb4898d
+|
+Ldelay-rabbitmq/src/main/java/com/sise/wangzhan/listener/MessageListener.java,5\f\5fcdd67233f6e0498436ce4c00c746ba82481ad1
+F
+delay-rabbitmq/pom.xml,3\2\32f1e60acb4e14ce5501dd820a8053f0934d8844
+~
+Ndelay-rabbitmq/src/main/java/com/sise/wangzhan/controller/DelayController.java,7\1\7108a8823db41c10cfa90add6168038e96eeb3c2
+y
+Idelay-rabbitmq/src/main/java/com/sise/wangzhan/config/RabbitmqConfig.java,f\2\f26e7eb431ee5b818d835666679182dbda8e698f
+t
+Ddelay-rabbitmq/src/main/java/com/sise/wangzhan/DelayApplication.java,2\e\2ec2fb8b10442cd4fecb3d705872f50c52555032
